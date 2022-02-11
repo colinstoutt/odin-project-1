@@ -1,0 +1,150 @@
+body {
+  background-color: #1f2937;
+  font-family: "roboto", sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #dee2e6;
+}
+
+/* HERO */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up {
+  /* display: inline; */
+}
+.mountains {
+  width: 450px;
+  height: 225px;
+}
+
+/* RANDOM INFO */
+
+.random-section {
+  background-color: #fff;
+}
+
+.random-title {
+  text-align: center;
+}
+
+.tyler-blocks {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(4, 180px);
+  gap: 15px;
+}
+
+.tyler-blocks p {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 18px;
+}
+
+.random-title {
+  color: #000;
+}
+
+.tyler {
+  width: 150px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial-section {
+  background-color: #e5e7eb;
+}
+
+/* CALL TO ACTION */
+
+.cta-section {
+  background-color: #fff;
+  height: 225px;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  margin-top: 62.5px;
+  width: 800px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.cta-title {
+  margin: 0;
+}
+
+.cta-text p {
+  margin: 0;
+}
+.cta-text {
+  color: #fff;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.cta-btn {
+  margin-right: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+}
